@@ -1,1 +1,361 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: black url("arkaplan.jpg") fixed center/cover;
+    height: auto;
+    width: auto;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.section_title {
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section_title h2 {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.section_title h2:hover {
+    
+}
+
+header {
+    background: #0d0d18;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.nav_links li a {
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.nav_links li a:hover {
+    
+}
+
+.logo h2 a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.inner_anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.child_anasayfa {
+    flex-basis: 45%;
+}
+
+.child_anasayfa h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.span_child {
+    color: #ffffff;
+}
+
+.child_anasayfa p {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: #8d2222;
+    border: 1px solid #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background: transparent;
+    letter-spacing: px;
+}
+
+.innermenuler_child {
+    color: #fff;
+    background: rgba(55, 66, 80, 0.281);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 65%;
+    transition: all .5s ease-in-out;
+    margin: 0 auto;
+}
+
+.innermenuler_child:hover {
+    border: 1px solid #5a1717;
+}
+
+.innermenuler_child .icon {
+    font-size: 25px;
+    color: #8d2222;
+}
+
+.innermenuler_child h3 {
+    margin: 5px 0;
+}
+
+.innermenuler_child p {
+    font-size: 16px;
+}
+
+.konum iframe {
+    color: #fff;
+    border-radius: 7px;
+}
+
+.konum {
+    text-align: center;
+}
+
+.inner_contact {
+    display: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+}
+
+.child_contact {
+    flex-basis: 45%;
+    
+
+}
+.child_contact h1{
+    font-size: xx-large;
+    color: red;
+}
+.child_contact h2{
+    color: #fff;
+    font-size: large;
+}
+
+.child_contact form {
+    padding: 50px 40px;
+    background: #0d0d18;
+    border-radius: 25px;
+}
+
+.child_contact form input,
+.child_contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #24292d;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s ease-in;
+}
+
+.child_contact form input,
+.child_contact form textarea:focus {
+    color: #fff;
+}
+
+.child_contact form textarea:focus {
+    letter-spacing: 1px;
+}
+
+.child_contact form input:last-child {
+    margin-bottom: 0;
+    background: red;
+    border: 1px solid red;
+    transition: .3s;
+}
+
+.child_contact form input:last-child:hover {
+    background: transparent;
+    color: #fff;
+}
+
+footer {
+    background: #0d0d18;
+    padding: 20px 0px 10px 0;
+    color: #fff;
+}
+
+.inner_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.child_footer {
+    flex-basis: 24%;
+}
+
+.child_footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.icon1 img {
+    float: left;
+    margin-right: 10px;
+    width: 25px;
+    height: 35px;
+}
+
+.icon2 img {
+    float: left;
+    margin-right: 10px;
+}
+
+.icon2 h3 {
+    color: #fff;
+}
+
+.icon5 img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon8 img {
+    float: right;
+    margin-right: 70px;
+    width: 200px;
+    height: 40px;
+}
+
+.icon9 {
+    margin: auto;
+    width: 50%;
+}
+
+.icon9 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.innermenuler2{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content:space-between;
+    margin: 0 auto;
+    color: #fff;
+    
+
+}
+.innermenuler_child2{
+    flex-basis: 29%;
+    color: #fff;
+    padding: 75px,60px;
+    
+}
+
+.innergözleme{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+.innergözleme_child{
+
+    flex-basis: 100%;
+    color: #fff;
+    padding: 25px 20px;
+    background: #0d0d18;
+    border: 5px;
+    border-radius: 25px;
+    
+}
+.innergözleme h1{
+    font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.innergözleme h2{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ÜRÜNLER */
+
+.innerurunler{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    
+}
+
+.innerurunler_child{
+
+    flex-basis: 31%;
+    color: #fff;
+    padding: 25px 20px;
+    background: #0d0d18;
+    border: 5px;
+    border-radius: 5px;
+
+}
+
+
 
